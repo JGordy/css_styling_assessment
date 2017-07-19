@@ -88,11 +88,17 @@ table {
 
  td {
    border: 2px solid #1fabe5;
-   margin: 0px;
+   padding: 5px;
+
  }
 
 thead > tr > td {
   background-color: #1fabe5;
   color: #eee;
   border: 2px solid #046c97;
+  padding: 10px;
+}
+td > img {
+  max-width: 50px;
+  padding: 5px;
 }
