@@ -12,3 +12,76 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+
+body {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body > div {
+  background-color: #fff;
+  width: 80%;
+  margin: 5px auto;
+  border: 3px solid #ffd24a;
+  border-radius: 5px;
+}
+
+header {
+  background-color: #ff8523;
+  padding: 30px 20px 30px 20px;
+  padding: 20px;
+
+}
+
+nav {
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.main_navigation a {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  color: #eee;
+  font-weight: bold;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+#page_content {
+  margin: 20px 20px;
+  line-height: 1.6;
+}
+
+section {
+  border-bottom: 4px solid #ddd;
+  padding: 10px 10px 50px 10px;
+}
+h2 {
+  color: #1fabe5;
+}
+
+#page_content a {
+  color: #1fabe5;
+}
+
+h3 {
+  color: #1fabe5;
+}
+
+ul {
+  margin: 0px 5px 0px 0px;
+}
+li {
+  font-weight: bold;
+  margin-left: 0px;
+}
+
+p {
+  font-weight: 500;
+}
+ table {
+   border: 2px solid #1fabe5;
+ }
