@@ -14,7 +14,7 @@ colors:
 */
 
 body {
-  background-image: url(bg.jpg);
+  background-image: url("./starter_files/img/bg.jpg");
   background-size: cover;
   font-family: Helvetica, Arial, sans-serif;
   margin: 0px;
@@ -24,7 +24,7 @@ body {
 body > div {
   background-color: #fff;
   width: 80%;
-  margin: 5px auto;
+  margin: 20px auto;
   border: 3px solid #ffd24a;
   border-radius: 5px;
 }
@@ -84,11 +84,13 @@ p {
 }
 table {
   border-collapse: collapse;
+  min-width: 90%;
 }
 
  td {
    border: 2px solid #1fabe5;
    padding: 5px;
+   max-width: 90%;
 
  }
 
@@ -101,4 +103,60 @@ thead > tr > td {
 td > img {
   max-width: 50px;
   padding: 5px;
+}
+
+form {
+  background-color: #ddd;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.name {
+  background-color: #ff8523;
+  color: #eee;
+  border: 1px solid #ff8523;
+  border-radius: 5px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.name input {
+  min-width: 150px;
+  min-height: 30px;
+  margin-right: 20px;
+}
+
+.city_container {
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+select {
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  border: 2px solid #1fabe5;
+  margin: 10px 0px;
+  padding: 10px;
+  max-width: 90%;
+  min-width: 90%;
+  font-weight: bold;
+  font-size: 1.0em;
+}
+
+.submit_container > input {
+  background-color: #1fabe5;
+  color: #eee;
+  padding: 15px 20px;
+  border: 2px solid #1fabe5;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 1.0em;
+  font-weight: bold;
+  box-shadow: none;
 }
