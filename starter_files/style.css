@@ -82,6 +82,17 @@ li {
 p {
   font-weight: 500;
 }
- table {
+table {
+  border-collapse: collapse;
+}
+
+ td {
    border: 2px solid #1fabe5;
+   margin: 0px;
  }
+
+thead > tr > td {
+  background-color: #1fabe5;
+  color: #eee;
+  border: 2px solid #046c97;
+}
