@@ -14,8 +14,7 @@ colors:
 */
 
 body {
-  background-image: url("./starter_files/img/bg.jpg");
-  background-size: cover;
+  background-image: url("img/bg.jpg");
   font-family: Helvetica, Arial, sans-serif;
   margin: 0px;
   padding: 0px;
@@ -84,7 +83,7 @@ p {
 }
 table {
   border-collapse: collapse;
-  min-width: 90%;
+  min-width: 100%;
 }
 
  td {
@@ -143,8 +142,8 @@ textarea {
   border: 2px solid #1fabe5;
   margin: 10px 0px;
   padding: 10px;
-  max-width: 90%;
-  min-width: 90%;
+  max-width: 97%;
+  min-width: 97%;
   font-weight: bold;
   font-size: 1.0em;
 }
@@ -158,5 +157,4 @@ textarea {
   text-transform: uppercase;
   font-size: 1.0em;
   font-weight: bold;
-  box-shadow: none;
 }
